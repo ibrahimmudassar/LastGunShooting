@@ -6,8 +6,10 @@ How many days since the last mass shooting in the US
 ## Roadmap
 This project is intended to be a counter for "How many days since" the last mass shooting.
 
+I also want to add an index.html file with some simple stats from last year and other interesting anecdotes and information that I can find
+
 ## Information
 
-There is a lack of consensus on what constitutes a mass shooting, but most definitions include a minimum of three or four victims of gun violence, not including the shooter, in a short period of time. [More Infor Here](https://en.wikipedia.org/wiki/Mass_shooting?useskin=vector)
+There is a lack of consensus on what constitutes a mass shooting, but most definitions include a minimum of three or four victims of gun violence, not including the shooter, in a short period of time. [More Info Here](https://en.wikipedia.org/wiki/Mass_shooting?useskin=vector)
 
 https://en.wikipedia.org/wiki/List_of_mass_shootings_in_the_United_States_in_2023?useskin=vector
