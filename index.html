@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="https://img.icons8.com/?size=512&id=38919&format=png">
+
+
+  <title>Last Shooting</title>
+</head>
+
+<body>
+  <h1>Days Since Last Shooting</h1>
+  <div class="content">
+    <script id="entry-template" type="text/x-handlebars-template">
+        <div class="entry">
+            <div class="image-container">
+                <img src="https://media.discordapp.net/attachments/749403737730187328/1128068258621300926/postitnote.png" alt="Image">
+                <div class="text-overlay">
+                  <h2>{{daysSince}}</h2>
+                </div>
+              </div>
+          <div class="details">
+            <h1>{{case}} - {{date}}</h1>
+            <p>{{summary}}</p>
+          </div>
+        </div>
+    </script>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
